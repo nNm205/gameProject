@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DemoSDL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DemoSDL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DemoSDL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Unit filename="src/alien/Alien.cpp" />
+		<Unit filename="src/alien/Alien.h" />
+		<Unit filename="src/base/Base.cpp" />
+		<Unit filename="src/base/Base.h" />
+		<Unit filename="src/bullet/Bullet.cpp" />
+		<Unit filename="src/bullet/Bullet.h" />
+		<Unit filename="src/common/Common.cpp" />
+		<Unit filename="src/common/Common.h" />
+		<Unit filename="src/dark/Dark.cpp" />
+		<Unit filename="src/dark/Dark.h" />
+		<Unit filename="src/enemy/Enemy.cpp" />
+		<Unit filename="src/enemy/Enemy.h" />
+		<Unit filename="src/explosion/Explosion.cpp" />
+		<Unit filename="src/explosion/Explosion.h" />
+		<Unit filename="src/eye/Eye.cpp" />
+		<Unit filename="src/eye/Eye.h" />
+		<Unit filename="src/horn/Horn.cpp" />
+		<Unit filename="src/horn/Horn.h" />
+		<Unit filename="src/player/player.cpp" />
+		<Unit filename="src/player/player.h" />
+		<Unit filename="src/player_life/Player_Life.cpp" />
+		<Unit filename="src/player_life/Player_Life.h" />
+		<Unit filename="src/sound_effect/SoundEffect.cpp" />
+		<Unit filename="src/sound_effect/SoundEffect.h" />
+		<Unit filename="src/text/text.cpp" />
+		<Unit filename="src/text/text.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

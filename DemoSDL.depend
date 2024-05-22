@@ -1,0 +1,210 @@
+# depslib dependency file v1.0
+1706885480 source:c:\users\admin\desktop\c++\courses_uet\ltnc\bai 1\demosdl\main.cpp
+	<iostream>
+	<SDL.h>
+
+1716361158 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\main.cpp
+	"src/common/Common.h"
+	"src/base/Base.h"
+	"src/player/player.h"
+	"src/bullet/Bullet.h"
+	"src/enemy/Enemy.h"
+	"src/dark/Dark.h"
+	"src/alien/Alien.h"
+	"src/eye/Eye.h"
+	"src/horn/Horn.h"
+	"src/explosion/Explosion.h"
+	"src/sound_effect/SoundEffect.h"
+	"src/player_life/Player_Life.h"
+	<SDL_ttf.h>
+
+1710143214 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\def.h
+
+1711469241 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\graphics.h
+	"defs.h"
+
+1711207361 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\structs.h
+
+1710127018 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\init.cpp
+	<SDL.h>
+	<SDL_image.h>
+	"def.h"
+	"structs.h"
+
+1710210657 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\input.cpp
+
+1711207361 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\input.h
+	<SDL.h>
+	<SDL_image.h>
+	"defs.h"
+	"structs.h"
+
+1711466501 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\defs.h
+
+1711378740 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\game.h
+	"graphics.h"
+
+1716359235 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\common\common.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	<vector>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1711962984 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\common.cpp
+
+1711964401 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\base.cpp
+	"base.h"
+
+1711964489 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\base.h
+	<SDL.h>
+	<SDL_image.h>
+	"src/common/common.h"
+
+1716284047 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\base\base.h
+	"../common/Common.h"
+
+1715700329 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\base\base.cpp
+	"Base.h"
+
+1711963098 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\/src\base\base.h
+	<bits/stdc++.h>
+	<SDL.h>
+	<SDL_image.h>
+
+1715701055 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\common\common.cpp
+
+1716351765 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\base\base.cpp
+	"Base.h"
+
+1715701055 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\common\common.cpp
+
+1716360514 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\player\player.cpp
+	"player.h"
+	"../sound_effect/SoundEffect.h"
+	"../bullet/Bullet.h"
+
+1716261609 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\player\player.h
+	"../common/Common.h"
+	"../base/Base.h"
+
+1716260718 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\bullet\bullet.cpp
+	"Bullet.h"
+
+1716260110 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\bullet\bullet.h
+	"../common/Common.h"
+	"../base/Base.h"
+
+1716361078 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\enemy\enemy.cpp
+	"Enemy.h"
+	"../bullet/Bullet.h"
+
+1716356281 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\enemy\enemy.h
+	"../common/Common.h"
+	"../base/Base.h"
+
+1716280978 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\dark\dark.cpp
+	"Dark.h"
+	"../bullet/Bullet.h"
+
+1716260899 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\dark\dark.h
+	"../common/Common.h"
+	"../enemy/Enemy.h"
+
+1716280965 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\alien\alien.cpp
+	"Alien.h"
+	"../bullet/Bullet.h"
+
+1716260890 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\alien\alien.h
+	"../common/Common.h"
+	"../enemy/Enemy.h"
+
+1716280993 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\eye\eye.cpp
+	"Eye.h"
+	"../bullet/Bullet.h"
+
+1716260802 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\eye\eye.h
+	"../common/Common.h"
+	"../enemy/Enemy.h"
+
+1716281001 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\horn\horn.cpp
+	"../common/Common.h"
+	"Horn.h"
+	"../bullet/Bullet.h"
+
+1716260355 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\horn\horn.h
+	"../common/Common.h"
+	"../enemy/Enemy.h"
+
+1716359231 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\explosion\explosion.cpp
+	"Explosion.h"
+
+1716359206 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\explosion\explosion.h
+	"../base/Base.h"
+	"../common/Common.h"
+
+1716212225 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\sound_effect\soundeffect.h
+	"../common/Common.h"
+	"../common/Common.h"
+
+1716212198 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\sound_effect\soundeffect.cpp
+	"SoundEffect.h"
+
+1715700908 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\player\player.cpp
+	"Player.h"
+	"../sound_effect/SoundEffect.h"
+	"../bullet/Bullet.h"
+	"../sound_effect/SoundEffect.h"
+	"../bullet/Bullet.h"
+
+1715700961 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\sound_effect\soundeffect.cpp
+	"SoundEffect.h"
+
+1715700460 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\bullet\bullet.cpp
+	"Bullet.h"
+
+1715701163 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\enemy\enemy.cpp
+	"Enemy.h"
+	"../bullet/Bullet.h"
+	"../bullet/Bullet.h"
+
+1715701149 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\dark\dark.cpp
+	"../common/Common.h"
+	"Dark.h"
+	"../bullet/Bullet.h"
+	"../bullet/Bullet.h"
+
+1715701176 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\horn\horn.cpp
+	"../common/Common.h"
+	"Horn.h"
+	"../bullet/Bullet.h"
+	"Horn.h"
+	"../bullet/Bullet.h"
+
+1715701111 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\alien\alien.cpp
+	"../common/Common.h"
+	"Alien.h"
+	"../bullet/Bullet.h"
+	"Alien.h"
+	"../bullet/Bullet.h"
+
+1715700707 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\explosion\explosion.cpp
+	"Explosion.h"
+
+1716299670 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\player_life\player_life.cpp
+	"Player_Life.h"
+
+1716299280 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\player_life\player_life.h
+	"../base/Base.h"
+	"../common/Common.h"
+
+1716308659 source:c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\text\text.cpp
+	"text.h"
+
+1716351487 c:\users\admin\desktop\ltnc_uet\gameproject\demosdl\src\text\text.h
+	"../base/Base.h"
+	<string>
+	<SDL_ttf.h>
+
